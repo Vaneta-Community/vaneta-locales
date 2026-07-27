@@ -3,7 +3,7 @@
     "description": "Bir üyeye panel erişimi verir.",
     "options": {
       "user": {
-        "description": "Eklenecek üye."
+        "description": "Eklenecek üye"
       }
     }
   },
