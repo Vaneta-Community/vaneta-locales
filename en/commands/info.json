@@ -1,0 +1,91 @@
+{
+  "ask dictionary": {
+    "description": "Looks up a word in the dictionary.",
+    "options": { "word": { "description": "The word to look up." } }
+  },
+  "ask urban": {
+    "description": "Looks up a word in Urban Dictionary.",
+    "options": {
+      "word": { "description": "The word to look up." },
+      "ephemeral": {
+        "description": "Hides the message from others (default: true)."
+      }
+    }
+  },
+  "github repo": {
+    "description": "Gives you info about a GitHub repository.",
+    "options": {
+      "owner": { "description": "The owner's username." },
+      "repository": { "description": "The repository name." }
+    }
+  },
+  "github user": {
+    "description": "Gives you info about a GitHub user.",
+    "options": {
+      "username": { "description": "The user or organisation's username." }
+    }
+  },
+  "instagram": {
+    "description": "Gives you info about an Instagram user.",
+    "options": { "username": { "description": "The user's username." } }
+  },
+  "invites leaderboard": { "description": "Shows the server's top inviters." },
+  "invites show": {
+    "description": "Shows how many members someone has invited.",
+    "options": {
+      "user": { "description": "Whose invites to show (defaults to you)." }
+    }
+  },
+  "kick channel": {
+    "description": "Gives you info about a Kick channel.",
+    "options": { "username": { "description": "The channel's slug." } }
+  },
+  "membercount": { "description": "Gives you the server membercount." },
+  "roblox": {
+    "description": "Gives you info about a Roblox user.",
+    "options": { "username": { "description": "The user's username." } }
+  },
+  "stats": {
+    "description": "Shows a member's activity stats for the last days.",
+    "options": {
+      "user": { "description": "Whose stats to show (defaults to you)." },
+      "days": { "description": "How many days to look back (default 90)." }
+    }
+  },
+  "steam": {
+    "description": "Gives you info about a Steam user.",
+    "options": {
+      "username": { "description": "The user's vanity URL name or SteamID64." }
+    }
+  },
+  "tiktok": {
+    "description": "Gives you info about a TikTok user.",
+    "options": { "username": { "description": "The user's username." } }
+  },
+  "twitch stream": {
+    "description": "Gives you info about a Twitch stream.",
+    "options": { "username": { "description": "The streamer's username." } }
+  },
+  "twitch user": {
+    "description": "Gives you info about a Twitch user.",
+    "options": { "username": { "description": "The user's username." } }
+  },
+  "whois member": {
+    "description": "Gives you info about a member.",
+    "options": { "member": { "description": "The member you want to select." } }
+  },
+  "whois user": {
+    "description": "Gives you info about a user.",
+    "options": {
+      "user": { "description": "The user you want to select (accepts IDs)." }
+    }
+  },
+  "youtube channel": {
+    "description": "Gives you info about a YouTube channel.",
+    "options": { "handle": { "description": "The channel's @handle." } }
+  },
+  "youtube video": {
+    "description": "Gives you info about a YouTube video.",
+    "options": { "url": { "description": "The video URL." } }
+  }
+}

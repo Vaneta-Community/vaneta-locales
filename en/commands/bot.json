@@ -1,0 +1,28 @@
+{
+  "bot admins add": {
+    "description": "Grants a member dashboard access.",
+    "options": { "user": { "description": "The member to add." } }
+  },
+  "bot admins list": {
+    "description": "Lists the members that have dashboard access."
+  },
+  "bot admins remove": {
+    "description": "Revokes a member's dashboard access.",
+    "options": { "user": { "description": "The member to remove." } }
+  },
+  "bot help": {
+    "description": "Shows a categorised list of the bot's commands."
+  },
+  "bot invite": { "description": "Generates an invite link for the bot." },
+  "bot login": { "description": "Generates a dashboard login code." },
+  "bot ping": { "description": "Calculates the current bot latency." },
+  "bot report": { "description": "Reports a bug to the developers." },
+  "config language": {
+    "description": "Sets the language the bot responds in.",
+    "options": { "language": { "description": "The language to use." } }
+  },
+  "config toggle": {
+    "description": "Toggles a module's enabled state.",
+    "options": { "module": { "description": "The module to toggle." } }
+  }
+}

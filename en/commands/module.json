@@ -1,0 +1,64 @@
+{
+  "level leaderboard": {
+    "description": "Generates the server level leaderboard.",
+    "options": {
+      "start": { "description": "Specify a rank to start from." },
+      "count": { "description": "Specify the number of ranks to display." }
+    }
+  },
+  "level rank": {
+    "description": "Generates your server rank card.",
+    "options": { "user": { "description": "Specify a user." } }
+  },
+  "level set": {
+    "description": "Sets a users rank data.",
+    "options": {
+      "user": { "description": "Specify a user." },
+      "level": { "description": "Set a new level rank for the user." },
+      "xp": { "description": "Set a new xp rank for the user." }
+    }
+  },
+  "tag create": {
+    "description": "Creates a tag.",
+    "options": {
+      "name": { "description": "The name of the tag." },
+      "value": { "description": "The value of the tag." }
+    }
+  },
+  "tag delete": {
+    "description": "Deletes a tag.",
+    "options": { "name": { "description": "The name of the tag." } }
+  },
+  "tag edit": {
+    "description": "Edits a tag.",
+    "options": {
+      "name": { "description": "The name of the tag." },
+      "value": { "description": "The new value of the tag." }
+    }
+  },
+  "tag get": {
+    "description": "Gets a tag by name.",
+    "options": { "name": { "description": "The name of the tag." } }
+  },
+  "tag list": { "description": "Lists all the tags in the server." },
+  "ticket blacklist": {
+    "description": "Manages who is blacklisted from creating tickets.",
+    "options": {
+      "action": { "description": "What to do." },
+      "user": {
+        "description": "The user to add or remove (not needed for list)."
+      }
+    }
+  },
+  "ticket claim": { "description": "Claims a ticket." },
+  "ticket close": {
+    "description": "Closes a ticket and records a transcript.",
+    "options": {
+      "reason": { "description": "Why this ticket is being closed." }
+    }
+  },
+  "ticket delete": { "description": "Deletes a ticket." },
+  "ticket lock": { "description": "Locks a ticket." },
+  "ticket unclaim": { "description": "Unclaims a ticket." },
+  "ticket unlock": { "description": "Unlocks a ticket." }
+}

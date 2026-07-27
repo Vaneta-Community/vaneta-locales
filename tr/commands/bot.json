@@ -1,0 +1,52 @@
+{
+  "bot admins add": {
+    "description": "Bir üyeye panel erişimi verir.",
+    "options": {
+      "user": {
+        "description": "Eklenecek üye."
+      }
+    }
+  },
+  "bot admins list": {
+    "description": "Panel erişimi olan üyeleri listeler."
+  },
+  "bot admins remove": {
+    "description": "Bir üyenin panel erişimini kaldırır.",
+    "options": {
+      "user": {
+        "description": "Kaldırılacak üye."
+      }
+    }
+  },
+  "bot help": {
+    "description": "Botun komutlarının kategorilere ayrılmış listesini gösterir."
+  },
+  "bot invite": {
+    "description": "Bot için bir davet bağlantısı oluşturur."
+  },
+  "bot login": {
+    "description": "Bir panel giriş kodu oluşturur."
+  },
+  "bot ping": {
+    "description": "Botun mevcut gecikmesini hesaplar."
+  },
+  "bot report": {
+    "description": "Geliştiricilere bir hata bildirir."
+  },
+  "config language": {
+    "description": "Botun yanıt vereceği dili ayarlar.",
+    "options": {
+      "language": {
+        "description": "Kullanılacak dil."
+      }
+    }
+  },
+  "config toggle": {
+    "description": "Bir modülün etkinlik durumunu değiştirir.",
+    "options": {
+      "module": {
+        "description": "Değiştirilecek modül."
+      }
+    }
+  }
+}

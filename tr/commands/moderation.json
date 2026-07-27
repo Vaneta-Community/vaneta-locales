@@ -1,0 +1,214 @@
+{
+  "announce": {
+    "description": "Bot olarak gömülü bir duyuru mesajı gönderir.",
+    "options": {
+      "message": {
+        "description": "Duyuru mesajı."
+      },
+      "mention": {
+        "description": "Etiketlenecek rol."
+      }
+    }
+  },
+  "ban add": {
+    "description": "Bir kullanıcıyı sunucudan yasaklar.",
+    "options": {
+      "user": {
+        "description": "Yasaklanacak kullanıcı."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "ban remove": {
+    "description": "Bir kullanıcının sunucu yasağını kaldırır.",
+    "options": {
+      "user": {
+        "description": "Yasağı kaldırılacak kullanıcı."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "giveaway create": {
+    "description": "Bir çekiliş oluşturur.",
+    "options": {
+      "prize": {
+        "description": "Kazananın alacağı ödül."
+      },
+      "winners": {
+        "description": "Kaç üyenin kazanacağı."
+      },
+      "duration": {
+        "description": "Çekilişin ne kadar süreceği (örn. 1m, 1h, 1d)."
+      }
+    }
+  },
+  "giveaway delete": {
+    "description": "Bir çekilişi siler.",
+    "options": {
+      "id": {
+        "description": "Çekilişin ID'si."
+      }
+    }
+  },
+  "giveaway reroll": {
+    "description": "Bir çekilişin kazananlarını yeniden belirler.",
+    "options": {
+      "id": {
+        "description": "Çekilişin ID'si."
+      },
+      "amount": {
+        "description": "Kaç kazananın yeniden belirleneceği."
+      }
+    }
+  },
+  "hardban": {
+    "description": "Bir kullanıcıyı kalıcı olarak yasaklar ve son 7 gündeki tüm mesajlarını siler.",
+    "options": {
+      "user": {
+        "description": "Yasaklanacak kullanıcı."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "jail add": {
+    "description": "Bir üyeyi rollerini alarak hapse gönderir.",
+    "options": {
+      "member": {
+        "description": "Hapse gönderilecek üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "jail remove": {
+    "description": "Bir üyeyi hapisten çıkarır ve rollerini geri verir.",
+    "options": {
+      "member": {
+        "description": "Hapisten çıkarılacak üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "kick": {
+    "description": "Bir üyeyi sunucudan atar.",
+    "options": {
+      "member": {
+        "description": "Atılacak üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "lock": {
+    "description": "Bir kanalı kilitler ve kilidini açar.",
+    "options": {
+      "state": {
+        "description": "Kanal kilidinin durumu."
+      },
+      "role": {
+        "description": "Erişimi kilitlenecek rolü belirt (varsayılan @everyone)."
+      }
+    }
+  },
+  "purge": {
+    "description": "Son mesajları toplu olarak siler.",
+    "options": {
+      "limit": {
+        "description": "Alınacak mesaj sayısı (en fazla 100)."
+      },
+      "author": {
+        "description": "Mesajların sahibi."
+      }
+    }
+  },
+  "scrub": {
+    "description": "Kanalı siler ve mesajsız birebir kopyasını oluşturur.",
+    "options": {
+      "reason": {
+        "description": "Temizleme sebebi."
+      }
+    }
+  },
+  "softban": {
+    "description": "Bir kullanıcıyı yasaklayıp hemen yasağını kaldırır ve son mesajlarını siler.",
+    "options": {
+      "user": {
+        "description": "Yasaklanacak kullanıcı."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "tempban": {
+    "description": "Bir kullanıcıyı geçici olarak sunucudan yasaklar.",
+    "options": {
+      "user": {
+        "description": "Yasaklanacak kullanıcı."
+      },
+      "duration": {
+        "description": "Yasağın ne kadar süreceği (örn. 1h, 7d, 30d)."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "timeout add": {
+    "description": "Bir üyeye zaman aşımı uygular.",
+    "options": {
+      "member": {
+        "description": "Zaman aşımı uygulanacak üye."
+      },
+      "duration": {
+        "description": "Zaman aşımının süresi (örn. 10m, 1h, 7d)."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "timeout remove": {
+    "description": "Bir üyenin zaman aşımını kaldırır.",
+    "options": {
+      "member": {
+        "description": "Zaman aşımı kaldırılacak üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "warn add": {
+    "description": "Bir üyeyi uyarır.",
+    "options": {
+      "member": {
+        "description": "Uyarılacak üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "warn remove": {
+    "description": "Bir üyenin uyarısını kaldırır.",
+    "options": {
+      "member": {
+        "description": "Uyarısı kaldırılacak üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  }
+}

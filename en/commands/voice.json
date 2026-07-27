@@ -1,0 +1,22 @@
+{
+  "music add": {
+    "description": "Adds a song to the queue.",
+    "options": {
+      "query": {
+        "description": "The search query or URL for a song or playlist."
+      }
+    }
+  },
+  "music panel": { "description": "Opens the music panel." },
+  "music pause": { "description": "Pauses the currently playing song." },
+  "music queue": { "description": "Lists the songs in the queue." },
+  "music remove": {
+    "description": "Removes a song from the queue.",
+    "options": {
+      "position": { "description": "The position of the song to remove." }
+    }
+  },
+  "music resume": { "description": "Resumes the currently paused song." },
+  "music skip": { "description": "Skips the current song." },
+  "music stop": { "description": "Clears all songs from the queue." }
+}

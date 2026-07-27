@@ -1,0 +1,106 @@
+{
+  "level leaderboard": {
+    "description": "Sunucu seviye lider tablosunu oluşturur.",
+    "options": {
+      "start": {
+        "description": "Başlanacak sıralamayı belirt."
+      },
+      "count": {
+        "description": "Gösterilecek sıra sayısını belirt."
+      }
+    }
+  },
+  "level rank": {
+    "description": "Sunucu sıralama kartını oluşturur.",
+    "options": {
+      "user": {
+        "description": "Bir kullanıcı belirt."
+      }
+    }
+  },
+  "level set": {
+    "description": "Bir kullanıcının sıralama verisini ayarlar.",
+    "options": {
+      "user": {
+        "description": "Bir kullanıcı belirt."
+      },
+      "level": {
+        "description": "Kullanıcı için yeni bir seviye ayarla."
+      },
+      "xp": {
+        "description": "Kullanıcı için yeni bir xp değeri ayarla."
+      }
+    }
+  },
+  "tag create": {
+    "description": "Bir etiket oluşturur.",
+    "options": {
+      "name": {
+        "description": "Etiketin adı."
+      },
+      "value": {
+        "description": "Etiketin içeriği."
+      }
+    }
+  },
+  "tag delete": {
+    "description": "Bir etiketi siler.",
+    "options": {
+      "name": {
+        "description": "Etiketin adı."
+      }
+    }
+  },
+  "tag edit": {
+    "description": "Bir etiketi düzenler.",
+    "options": {
+      "name": {
+        "description": "Etiketin adı."
+      },
+      "value": {
+        "description": "Etiketin yeni içeriği."
+      }
+    }
+  },
+  "tag get": {
+    "description": "Bir etiketi adıyla getirir.",
+    "options": {
+      "name": {
+        "description": "Etiketin adı."
+      }
+    }
+  },
+  "tag list": {
+    "description": "Sunucudaki tüm etiketleri listeler."
+  },
+  "ticket blacklist": {
+    "description": "Kimlerin destek talebi oluşturmasının engellendiğini yönetir.",
+    "options": {
+      "action": { "description": "Ne yapılacağı." },
+      "user": {
+        "description": "Eklenecek veya çıkarılacak kullanıcı (liste için gerekmez)."
+      }
+    }
+  },
+  "ticket claim": {
+    "description": "Bir destek talebini sahiplenir."
+  },
+  "ticket close": {
+    "description": "Bir destek talebini kapatır ve bir kaydını (transcript) tutar.",
+    "options": {
+      "reason": { "description": "Bu destek talebinin neden kapatıldığı." }
+    }
+  },
+  "ticket delete": {
+    "description": "Bir destek talebini siler."
+  },
+  "ticket lock": {
+    "description": "Bir destek talebini kilitler."
+  },
+  "ticket unclaim": {
+    "description": "Bir destek talebinin sahipliğini bırakır."
+  },
+  "ticket unlock": {
+    "description": "Bir destek talebinin kilidini açar."
+  }
+}

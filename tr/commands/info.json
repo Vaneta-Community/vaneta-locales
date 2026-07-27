@@ -1,0 +1,153 @@
+{
+  "ask dictionary": {
+    "description": "Sözlükte bir kelime arar.",
+    "options": {
+      "word": {
+        "description": "Aranacak kelime."
+      }
+    }
+  },
+  "ask urban": {
+    "description": "Urban Dictionary'de bir kelime arar.",
+    "options": {
+      "word": {
+        "description": "Aranacak kelime."
+      },
+      "ephemeral": {
+        "description": "Mesajı diğerlerinden gizler (varsayılan: açık)."
+      }
+    }
+  },
+  "github repo": {
+    "description": "Bir GitHub deposu hakkında bilgi verir.",
+    "options": {
+      "owner": {
+        "description": "Sahibinin kullanıcı adı."
+      },
+      "repository": {
+        "description": "Depo adı."
+      }
+    }
+  },
+  "github user": {
+    "description": "Bir GitHub kullanıcısı hakkında bilgi verir.",
+    "options": {
+      "username": {
+        "description": "Kullanıcının veya organizasyonun kullanıcı adı."
+      }
+    }
+  },
+  "instagram": {
+    "description": "Bir Instagram kullanıcısı hakkında bilgi verir.",
+    "options": {
+      "username": {
+        "description": "Kullanıcının kullanıcı adı."
+      }
+    }
+  },
+  "invites leaderboard": {
+    "description": "Sunucunun en çok davet eden üyelerini gösterir."
+  },
+  "invites show": {
+    "description": "Bir üyenin kaç kişiyi davet ettiğini gösterir.",
+    "options": {
+      "user": {
+        "description": "Davetleri gösterilecek üye (varsayılan sensin)."
+      }
+    }
+  },
+  "kick channel": {
+    "description": "Bir Kick kanalı hakkında bilgi verir.",
+    "options": {
+      "username": {
+        "description": "Kanalın kullanıcı adı."
+      }
+    }
+  },
+  "membercount": {
+    "description": "Sunucunun üye sayısını verir."
+  },
+  "roblox": {
+    "description": "Bir Roblox kullanıcısı hakkında bilgi verir.",
+    "options": {
+      "username": {
+        "description": "Kullanıcının kullanıcı adı."
+      }
+    }
+  },
+  "stats": {
+    "description": "Bir üyenin son günlerdeki aktivite istatistiklerini gösterir.",
+    "options": {
+      "user": {
+        "description": "İstatistikleri gösterilecek üye (varsayılan sensin)."
+      },
+      "days": {
+        "description": "Kaç gün geriye bakılacağı (varsayılan 90)."
+      }
+    }
+  },
+  "steam": {
+    "description": "Bir Steam kullanıcısı hakkında bilgi verir.",
+    "options": {
+      "username": {
+        "description": "Kullanıcının profil bağlantısı adı veya SteamID64'ü."
+      }
+    }
+  },
+  "tiktok": {
+    "description": "Bir TikTok kullanıcısı hakkında bilgi verir.",
+    "options": {
+      "username": {
+        "description": "Kullanıcının kullanıcı adı."
+      }
+    }
+  },
+  "twitch stream": {
+    "description": "Bir Twitch yayını hakkında bilgi verir.",
+    "options": {
+      "username": {
+        "description": "Yayıncının kullanıcı adı."
+      }
+    }
+  },
+  "twitch user": {
+    "description": "Bir Twitch kullanıcısı hakkında bilgi verir.",
+    "options": {
+      "username": {
+        "description": "Kullanıcının kullanıcı adı."
+      }
+    }
+  },
+  "whois member": {
+    "description": "Bir üye hakkında bilgi verir.",
+    "options": {
+      "member": {
+        "description": "Seçmek istediğin üye."
+      }
+    }
+  },
+  "whois user": {
+    "description": "Bir kullanıcı hakkında bilgi verir.",
+    "options": {
+      "user": {
+        "description": "Seçmek istediğin kullanıcı (ID kabul eder)."
+      }
+    }
+  },
+  "youtube channel": {
+    "description": "Bir YouTube kanalı hakkında bilgi verir.",
+    "options": {
+      "handle": {
+        "description": "Kanalın @handle'ı."
+      }
+    }
+  },
+  "youtube video": {
+    "description": "Bir YouTube videosu hakkında bilgi verir.",
+    "options": {
+      "url": {
+        "description": "Video bağlantısı."
+      }
+    }
+  }
+}

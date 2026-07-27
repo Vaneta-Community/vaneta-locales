@@ -1,0 +1,89 @@
+name: Sync locales to private repo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout public repo
+        uses: actions/checkout@v4
+        with:
+          path: public
+
+      - name: Checkout private repo
+        uses: actions/checkout@v4
+        with:
+          repository: Vaneta-Community/vaneta
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: private
+
+      - name: Create sync branch
+        run: |
+          cd private
+          git config user.name "vaneta-locales-bot"
+          git config user.email "bot@vaneta.xyz"
+          git checkout -b "sync/locales-${{ github.run_number }}"
+
+      - name: Sync locale files
+        run: |
+          rsync -av --delete \
+            --exclude=".git" \
+            --exclude=".github" \
+            --exclude="README.md" \
+            public/ private/apps/bot/locales/
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Regenerate i18n types (best effort)
+        id: i18n
+        continue-on-error: true
+        env:
+          SKIP_ENV_VALIDATION: "true"
+        run: |
+          cd private
+          bun install
+          cd apps/bot
+          bun run i18n
+
+      - name: Commit changes
+        id: commit
+        run: |
+          cd private
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore: sync locales from public repo
+
+          Source: ${{ github.repository }}@${{ github.sha }}"
+            git push origin "sync/locales-${{ github.run_number }}"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open pull request
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
+        run: |
+          cd private
+          BODY="Automated sync from community contributions in ${{ github.repository }}@${{ github.sha }}."
+          if [ "${{ steps.i18n.outcome }}" = "failure" ]; then
+            BODY="$BODY
+
+          ⚠️ \`bun run i18n\` failed while regenerating locale types — check the new/changed locale files before merging."
+          fi
+
+          gh pr create \
+            --repo Vaneta-Community/vaneta \
+            --title "Sync locales from public repo" \
+            --body "$BODY" \
+            --head "sync/locales-${{ github.run_number }}" \
+            --base main

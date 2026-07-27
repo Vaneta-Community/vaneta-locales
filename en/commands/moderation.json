@@ -1,0 +1,140 @@
+{
+  "announce": {
+    "description": "Sends an embedded announcement message as the bot.",
+    "options": {
+      "message": { "description": "The announcement message." },
+      "mention": { "description": "What role to ping." }
+    }
+  },
+  "ban add": {
+    "description": "Bans a user from the server.",
+    "options": {
+      "user": { "description": "Who to ban." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "ban remove": {
+    "description": "Unbans a user from the server.",
+    "options": {
+      "user": { "description": "Who to unban." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "giveaway create": {
+    "description": "Creates a giveaway.",
+    "options": {
+      "prize": { "description": "What the winner will get." },
+      "winners": { "description": "How many members will win." },
+      "duration": {
+        "description": "How long the giveaway will last (e.g. 1m, 1h, 1d)."
+      }
+    }
+  },
+  "giveaway delete": {
+    "description": "Deletes a giveaway.",
+    "options": { "id": { "description": "The ID of the giveaway." } }
+  },
+  "giveaway reroll": {
+    "description": "Rerolls a giveaway.",
+    "options": {
+      "id": { "description": "The ID of the giveaway." },
+      "amount": { "description": "How many winners you want to reroll." }
+    }
+  },
+  "hardban": {
+    "description": "Permanently bans a user, deleting all of their messages from the last 7 days.",
+    "options": {
+      "user": { "description": "Who to ban." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "jail add": {
+    "description": "Sends a member to jail, stripping their roles.",
+    "options": {
+      "member": { "description": "Who to jail." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "jail remove": {
+    "description": "Releases a member from jail, restoring their roles.",
+    "options": {
+      "member": { "description": "Who to release from jail." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "kick": {
+    "description": "Kicks a member from the server.",
+    "options": {
+      "member": { "description": "Who to kick." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "lock": {
+    "description": "Locks and unlocks a channel.",
+    "options": {
+      "state": { "description": "The state of the channel lock." },
+      "role": {
+        "description": "Specify a role to lock access for (defaults to @everyone)."
+      }
+    }
+  },
+  "purge": {
+    "description": "Bulk deletes recent messages.",
+    "options": {
+      "limit": { "description": "The number of messages to fetch (max 100)." },
+      "author": { "description": "The author of the messages." }
+    }
+  },
+  "scrub": {
+    "description": "Deletes the channel and creates an exact copy with no messages.",
+    "options": { "reason": { "description": "The reason for the scrub." } }
+  },
+  "softban": {
+    "description": "Bans and immediately unbans a user, deleting their recent messages.",
+    "options": {
+      "user": { "description": "Who to softban." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "tempban": {
+    "description": "Temporarily bans a user from the server.",
+    "options": {
+      "user": { "description": "Who to ban." },
+      "duration": {
+        "description": "How long the ban should last (e.g. 1h, 7d, 30d)."
+      },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "timeout add": {
+    "description": "Times out a member.",
+    "options": {
+      "member": { "description": "Who to timeout." },
+      "duration": {
+        "description": "How long the timeout should last (e.g. 10m, 1h, 7d)."
+      },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "timeout remove": {
+    "description": "Removes a member's timeout.",
+    "options": {
+      "member": { "description": "Whose timeout to remove." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "warn add": {
+    "description": "Warns a member.",
+    "options": {
+      "member": { "description": "Who to warn." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "warn remove": {
+    "description": "Unwarns a member.",
+    "options": {
+      "member": { "description": "Who to unwarn." },
+      "reason": { "description": "Add a reason." }
+    }
+  }
+}

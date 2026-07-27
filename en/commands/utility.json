@@ -1,0 +1,77 @@
+{
+  "afk": {
+    "description": "Sets your AFK status.",
+    "options": { "reason": { "description": "Give a reason for going AFK." } }
+  },
+  "avatar member": {
+    "description": "Gets a member's server avatar.",
+    "options": {
+      "member": { "description": "Pick a member (defaults to you)" },
+      "extension": { "description": "The image extension (defaults to webp)" },
+      "size": { "description": "The image size (defaults to 512)" }
+    }
+  },
+  "avatar server": {
+    "description": "Gets the server's icon.",
+    "options": {
+      "extension": { "description": "The image extension (defaults to webp)" },
+      "size": { "description": "The image size (defaults to 512)" }
+    }
+  },
+  "avatar user": {
+    "description": "Gets a user's avatar.",
+    "options": {
+      "user": { "description": "Pick a user (defaults to you)" },
+      "extension": { "description": "The image extension (defaults to webp)" },
+      "size": { "description": "The image size (defaults to 512)" }
+    }
+  },
+  "banner member": {
+    "description": "Gets a member's server banner.",
+    "options": {
+      "member": { "description": "Pick a member (defaults to you)" },
+      "extension": { "description": "The image extension (defaults to webp)" },
+      "size": { "description": "The image size (defaults to 512)" }
+    }
+  },
+  "banner server": {
+    "description": "Gets the server's banner.",
+    "options": {
+      "extension": { "description": "The image extension (defaults to webp)" },
+      "size": { "description": "The image size (defaults to 512)" }
+    }
+  },
+  "banner user": {
+    "description": "Gets a user's banner.",
+    "options": {
+      "user": { "description": "Pick a user (defaults to you)" },
+      "extension": { "description": "The image extension (defaults to webp)" },
+      "size": { "description": "The image size (defaults to 512)" }
+    }
+  },
+  "echo": {
+    "description": "Echoes the text you give it.",
+    "options": { "text": { "description": "The text to echo." } }
+  },
+  "embed": { "description": "Opens the Vaneta Embed Builder." },
+  "id channel": {
+    "description": "Gets the ID of a channel.",
+    "options": { "channel": { "description": "The channel to get the ID of." } }
+  },
+  "id role": {
+    "description": "Gets the ID of a role.",
+    "options": { "role": { "description": "The role to get the ID of." } }
+  },
+  "id server": { "description": "Gets the ID of the server." },
+  "id user": {
+    "description": "Gets the ID of a user.",
+    "options": { "user": { "description": "The user to get the ID of." } }
+  },
+  "reminder": {
+    "description": "Creates a reminder",
+    "options": {
+      "message": { "description": "The content to put in the reminder" },
+      "delay": { "description": "How long to wait before sending the reminder" }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "cat": {
+    "description": "Rastgele bir kedi fotoğrafı verir."
+  },
+  "catfact": {
+    "description": "Kediler hakkında ilginç bir bilgi verir."
+  },
+  "coinflip": {
+    "description": "Yazı tura atar."
+  },
+  "compliment": {
+    "description": "Sana bir iltifat eder."
+  },
+  "diceroll": {
+    "description": "Zar atar (farklı yüz sayılarını destekler).",
+    "options": {
+      "sides": {
+        "description": "Zarın yüz sayısı (varsayılan d6)."
+      },
+      "amount": {
+        "description": "Kaç zar atılacağı (varsayılan 1)."
+      }
+    }
+  },
+  "dog": {
+    "description": "Rastgele bir köpek fotoğrafı verir."
+  },
+  "duck": {
+    "description": "Rastgele bir ördek fotoğrafı verir."
+  },
+  "games connect-4": {
+    "description": "Bir connect-4 oyunu başlatır.",
+    "options": {
+      "opponent": {
+        "description": "Seçmek istediğin rakip."
+      }
+    }
+  },
+  "games rps": {
+    "description": "Bir taş-kağıt-makas oyunu başlatır.",
+    "options": {
+      "choice": {
+        "description": "Hamlen."
+      }
+    }
+  },
+  "games tictactoe": {
+    "description": "Bir tic-tac-toe oyunu başlatır.",
+    "options": {
+      "opponent": {
+        "description": "Karşısında oynamak istediğin kullanıcı."
+      }
+    }
+  }
+}

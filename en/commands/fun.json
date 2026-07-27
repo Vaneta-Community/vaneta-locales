@@ -1,0 +1,33 @@
+{
+  "cat": { "description": "Gives you a random picture of a cat." },
+  "catfact": { "description": "Gives you an interesting fact about cats." },
+  "coinflip": { "description": "Flips a coin." },
+  "compliment": { "description": "Gives you a compliment." },
+  "diceroll": {
+    "description": "Rolls a die (supports multiple sides).",
+    "options": {
+      "sides": {
+        "description": "The number of sides on the die (defaults to d6)."
+      },
+      "amount": { "description": "How many dice to roll (defaults to 1)." }
+    }
+  },
+  "dog": { "description": "Gives you a random picture of a dog." },
+  "duck": { "description": "Gives you a random picture of a duck." },
+  "games connect-4": {
+    "description": "Starts a game of connect-4.",
+    "options": {
+      "opponent": { "description": "The opponent you want to select." }
+    }
+  },
+  "games rps": {
+    "description": "Starts a game of rock-paper-scissors.",
+    "options": { "choice": { "description": "Your move." } }
+  },
+  "games tictactoe": {
+    "description": "Starts a game of tic-tac-toe.",
+    "options": {
+      "opponent": { "description": "The user you want to play against." }
+    }
+  }
+}

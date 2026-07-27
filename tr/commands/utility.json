@@ -1,0 +1,137 @@
+{
+  "afk": {
+    "description": "AFK durumunu ayarlar.",
+    "options": {
+      "reason": {
+        "description": "AFK olma sebebini belirt."
+      }
+    }
+  },
+  "avatar member": {
+    "description": "Bir üyenin sunucu avatarını getirir.",
+    "options": {
+      "member": {
+        "description": "Bir üye seç (varsayılan sensin)"
+      },
+      "extension": {
+        "description": "Görsel uzantısı (varsayılan webp)"
+      },
+      "size": {
+        "description": "Görsel boyutu (varsayılan 512)"
+      }
+    }
+  },
+  "avatar server": {
+    "description": "Sunucunun simgesini getirir.",
+    "options": {
+      "extension": {
+        "description": "Görsel uzantısı (varsayılan webp)"
+      },
+      "size": {
+        "description": "Görsel boyutu (varsayılan 512)"
+      }
+    }
+  },
+  "avatar user": {
+    "description": "Bir kullanıcının avatarını getirir.",
+    "options": {
+      "user": {
+        "description": "Bir kullanıcı seç (varsayılan sensin)"
+      },
+      "extension": {
+        "description": "Görsel uzantısı (varsayılan webp)"
+      },
+      "size": {
+        "description": "Görsel boyutu (varsayılan 512)"
+      }
+    }
+  },
+  "banner member": {
+    "description": "Bir üyenin sunucu afişini getirir.",
+    "options": {
+      "member": {
+        "description": "Bir üye seç (varsayılan sensin)"
+      },
+      "extension": {
+        "description": "Görsel uzantısı (varsayılan webp)"
+      },
+      "size": {
+        "description": "Görsel boyutu (varsayılan 512)"
+      }
+    }
+  },
+  "banner server": {
+    "description": "Sunucunun afişini getirir.",
+    "options": {
+      "extension": {
+        "description": "Görsel uzantısı (varsayılan webp)"
+      },
+      "size": {
+        "description": "Görsel boyutu (varsayılan 512)"
+      }
+    }
+  },
+  "banner user": {
+    "description": "Bir kullanıcının afişini getirir.",
+    "options": {
+      "user": {
+        "description": "Bir kullanıcı seç (varsayılan sensin)"
+      },
+      "extension": {
+        "description": "Görsel uzantısı (varsayılan webp)"
+      },
+      "size": {
+        "description": "Görsel boyutu (varsayılan 512)"
+      }
+    }
+  },
+  "echo": {
+    "description": "Verdiğin metni tekrar eder.",
+    "options": {
+      "text": {
+        "description": "Tekrar edilecek metin."
+      }
+    }
+  },
+  "embed": {
+    "description": "Vaneta Embed Oluşturucusunu açar."
+  },
+  "id channel": {
+    "description": "Bir kanalın ID'sini getirir.",
+    "options": {
+      "channel": {
+        "description": "ID'si alınacak kanal."
+      }
+    }
+  },
+  "id role": {
+    "description": "Bir rolün ID'sini getirir.",
+    "options": {
+      "role": {
+        "description": "ID'si alınacak rol."
+      }
+    }
+  },
+  "id server": {
+    "description": "Sunucunun ID'sini getirir."
+  },
+  "id user": {
+    "description": "Bir kullanıcının ID'sini getirir.",
+    "options": {
+      "user": {
+        "description": "ID'si alınacak kullanıcı."
+      }
+    }
+  },
+  "reminder": {
+    "description": "Bir hatırlatıcı oluşturur",
+    "options": {
+      "message": {
+        "description": "Hatırlatıcıya konulacak içerik"
+      },
+      "delay": {
+        "description": "Hatırlatıcı gönderilmeden önce beklenecek süre"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "music add": {
+    "description": "Kuyruğa bir şarkı ekler.",
+    "options": {
+      "query": {
+        "description": "Bir şarkı veya çalma listesi için arama sorgusu ya da bağlantı."
+      }
+    }
+  },
+  "music panel": {
+    "description": "Müzik panelini açar."
+  },
+  "music pause": {
+    "description": "Çalan şarkıyı duraklatır."
+  },
+  "music queue": {
+    "description": "Kuyruktaki şarkıları listeler."
+  },
+  "music remove": {
+    "description": "Kuyruktan bir şarkı kaldırır.",
+    "options": {
+      "position": {
+        "description": "Kaldırılacak şarkının konumu."
+      }
+    }
+  },
+  "music resume": {
+    "description": "Duraklatılmış şarkıyı devam ettirir."
+  },
+  "music skip": {
+    "description": "Mevcut şarkıyı atlar."
+  },
+  "music stop": {
+    "description": "Kuyruktaki tüm şarkıları temizler."
+  }
+}
