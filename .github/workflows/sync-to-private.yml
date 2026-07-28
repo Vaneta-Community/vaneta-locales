@@ -8,6 +8,7 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    if: ${{ !startsWith(github.event.head_commit.message, 'chore: sync locales from private repo') }}
 
     steps:
       - name: Checkout public repo
@@ -81,9 +82,16 @@ jobs:
           ⚠️ \`bun run i18n\` failed while regenerating locale types — check the new/changed locale files before merging."
           fi
 
-          gh pr create \
+          PR_URL=$(gh pr create \
             --repo Vaneta-Community/vaneta \
             --title "Sync locales from public repo" \
             --body "$BODY" \
             --head "sync/locales-${{ github.run_number }}" \
-            --base main
+            --base main)
+          echo "Opened $PR_URL"
+
+          if [ "${{ steps.i18n.outcome }}" = "failure" ]; then
+            echo "i18n regen failed — leaving PR open for manual review instead of auto-merging"
+          else
+            gh pr merge --squash --delete-branch "$PR_URL"
+          fi
