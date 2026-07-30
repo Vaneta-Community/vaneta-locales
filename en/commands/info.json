@@ -36,11 +36,11 @@
       "user": { "description": "Whose invites to show (defaults to you)." }
     }
   },
-  "kick channel": {
+  "membercount": { "description": "Gives you the server membercount." },
+  "platform channel": {
     "description": "Gives you info about a Kick channel.",
     "options": { "username": { "description": "The channel's slug." } }
   },
-  "membercount": { "description": "Gives you the server membercount." },
   "roblox": {
     "description": "Gives you info about a Roblox user.",
     "options": { "username": { "description": "The user's username." } }
