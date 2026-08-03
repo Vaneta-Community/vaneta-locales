@@ -6,8 +6,16 @@
     "mentionedOne": "{mentions} is currently AFK.",
     "mentionedMany": "{mentions} are currently AFK."
   },
+  "automod": {
+    "logTitle": "AutoMod Triggered",
+    "logDescription": "{member} triggered **{protection}** and received **{punishment}**.",
+    "channelField": "Channel",
+    "messageField": "Message",
+    "ghostPingNotice": "{member}'s message mentioning {target} was deleted {seconds}s after being sent."
+  },
   "dictionary": {
-    "noPhonetic": "Could not find a phonetic pronunciation."
+    "noPhonetic": "Could not find a phonetic pronunciation.",
+    "pronounceFailed": "Failed to load the pronunciation audio. Try again later."
   },
   "welcomes": {
     "newMember": "New Member"
@@ -240,9 +248,9 @@
     "invalidAction": "Invalid panel action.",
     "genericError": "Something went wrong. Make sure the bot has the required permissions, then try again."
   },
-  "decoy": {
-    "logTitle": "Decoy Triggered",
-    "logDescription": "{member} sent a message in the decoy channel and received a **{punishment}**.",
+  "honeypot": {
+    "logTitle": "Honeypot Triggered",
+    "logDescription": "{member} sent a message in the honeypot channel and received a **{punishment}**.",
     "messageField": "Message",
     "channelField": "Channel",
     "accountCreatedField": "Account Created",
@@ -291,7 +299,13 @@
   "tictactoe": {
     "turn": "It's {player}'s turn, make a move!",
     "draw": "It's a draw!",
-    "won": "{player} has won!"
+    "won": "{player} has won!",
+    "invalidMoveTitle": "Invalid Move",
+    "notAPlayer": "You're not a player in this game.",
+    "notYourTurn": "It's not your turn!",
+    "invalidIndex": "That's not a valid tile.",
+    "gameOver": "This game has already ended.",
+    "tileTaken": "That tile is already taken."
   },
   "tickets": {
     "ticketMissing": "The ticket you are trying to access no longer exists.",

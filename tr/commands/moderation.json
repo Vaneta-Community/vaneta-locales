@@ -10,6 +10,22 @@
       }
     }
   },
+  "antinuke trust add": {
+    "description": "Bir üyeyi tüm AntiNuke korumalarından muaf tutar.",
+    "options": { "user": { "description": "Güvenilecek üye." } }
+  },
+  "antinuke trust remove": {
+    "description": "Bir üyenin AntiNuke muafiyetini kaldırır.",
+    "options": { "user": { "description": "Güveni kaldırılacak üye." } }
+  },
+  "automod ignore add": {
+    "description": "Bir kullanıcıyı tüm AutoMod korumalarından muaf tutar.",
+    "options": { "user": { "description": "Kimin muaf tutulacağı." } }
+  },
+  "automod ignore remove": {
+    "description": "Bir kullanıcının AutoMod muafiyetini kaldırır.",
+    "options": { "user": { "description": "Kimin muafiyetinin kaldırılacağı." } }
+  },
   "ban add": {
     "description": "Bir kullanıcıyı sunucudan yasaklar.",
     "options": {

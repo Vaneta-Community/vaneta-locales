@@ -15,8 +15,7 @@
   "github repo": {
     "description": "Gives you info about a GitHub repository.",
     "options": {
-      "owner": { "description": "The owner's username." },
-      "repository": { "description": "The repository name." }
+      "repository": { "description": "The repository URL (or \"owner/repo\")." }
     }
   },
   "github user": {

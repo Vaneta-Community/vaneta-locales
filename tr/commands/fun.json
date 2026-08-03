@@ -2,14 +2,8 @@
   "cat": {
     "description": "Rastgele bir kedi fotoğrafı verir."
   },
-  "catfact": {
-    "description": "Kediler hakkında ilginç bir bilgi verir."
-  },
   "coinflip": {
     "description": "Yazı tura atar."
-  },
-  "compliment": {
-    "description": "Sana bir iltifat eder."
   },
   "diceroll": {
     "description": "Zar atar (farklı yüz sayılarını destekler).",

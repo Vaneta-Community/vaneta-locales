@@ -6,6 +6,22 @@
       "mention": { "description": "What role to ping." }
     }
   },
+  "antinuke trust add": {
+    "description": "Exempts a member from every AntiNuke protection.",
+    "options": { "user": { "description": "The member to trust." } }
+  },
+  "antinuke trust remove": {
+    "description": "Removes a member's AntiNuke bypass.",
+    "options": { "user": { "description": "The member to un-trust." } }
+  },
+  "automod ignore add": {
+    "description": "Exempts a user from every AutoMod protection.",
+    "options": { "user": { "description": "Who to exempt." } }
+  },
+  "automod ignore remove": {
+    "description": "Removes a user's AutoMod exemption.",
+    "options": { "user": { "description": "Whose exemption to remove." } }
+  },
   "ban add": {
     "description": "Bans a user from the server.",
     "options": {

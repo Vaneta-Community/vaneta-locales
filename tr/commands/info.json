@@ -21,11 +21,8 @@
   "github repo": {
     "description": "Bir GitHub deposu hakkında bilgi verir.",
     "options": {
-      "owner": {
-        "description": "Sahibinin kullanıcı adı."
-      },
       "repository": {
-        "description": "Depo adı."
+        "description": "Depo bağlantısı (veya \"owner/repo\")."
       }
     }
   },

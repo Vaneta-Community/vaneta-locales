@@ -6,8 +6,16 @@
     "mentionedOne": "{mentions} şu anda AFK.",
     "mentionedMany": "{mentions} şu anda AFK."
   },
+  "automod": {
+    "logTitle": "AutoMod Tetiklendi",
+    "logDescription": "{member} **{protection}** korumasını tetikledi ve **{punishment}** cezası aldı.",
+    "channelField": "Kanal",
+    "messageField": "Mesaj",
+    "ghostPingNotice": "{member} kullanıcısının {target} kullanıcısını etiketlediği mesaj, gönderilmesinden {seconds} saniye sonra silindi."
+  },
   "dictionary": {
-    "noPhonetic": "Fonetik telaffuz bulunamadı."
+    "noPhonetic": "Fonetik telaffuz bulunamadı.",
+    "pronounceFailed": "Telaffuz sesi yüklenemedi. Daha sonra tekrar dene."
   },
   "welcomes": {
     "newMember": "Yeni Üye"
@@ -240,9 +248,9 @@
     "invalidAction": "Geçersiz panel işlemi.",
     "genericError": "Bir şeyler ters gitti. Botun gerekli izinlere sahip olduğundan emin ol ve tekrar dene."
   },
-  "decoy": {
-    "logTitle": "Tuzak Tetiklendi",
-    "logDescription": "{member} tuzak kanalına mesaj gönderdi ve **{punishment}** cezası aldı.",
+  "honeypot": {
+    "logTitle": "Honeypot Tetiklendi",
+    "logDescription": "{member} honeypot kanalına mesaj gönderdi ve **{punishment}** cezası aldı.",
     "messageField": "Mesaj",
     "channelField": "Kanal",
     "accountCreatedField": "Hesap Oluşturulma",
@@ -291,7 +299,13 @@
   "tictactoe": {
     "turn": "Sıra {player} oyuncusunda, hamleni yap!",
     "draw": "Berabere!",
-    "won": "{player} kazandı!"
+    "won": "{player} kazandı!",
+    "invalidMoveTitle": "Geçersiz Hamle",
+    "notAPlayer": "Bu oyunda bir oyuncu değilsin.",
+    "notYourTurn": "Sıra sende değil!",
+    "invalidIndex": "Bu geçerli bir kare değil.",
+    "gameOver": "Bu oyun zaten sona erdi.",
+    "tileTaken": "Bu kare zaten dolu."
   },
   "tickets": {
     "ticketMissing": "Erişmeye çalıştığın destek talebi artık mevcut değil.",
