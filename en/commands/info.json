@@ -37,10 +37,6 @@
     }
   },
   "membercount": { "description": "Gives you the server membercount." },
-  "platform channel": {
-    "description": "Gives you info about a Kick channel.",
-    "options": { "username": { "description": "The channel's slug." } }
-  },
   "roblox": {
     "description": "Gives you info about a Roblox user.",
     "options": { "username": { "description": "The user's username." } }

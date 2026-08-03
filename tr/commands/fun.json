@@ -28,7 +28,7 @@
   "duck": {
     "description": "Rastgele bir ördek fotoğrafı verir."
   },
-  "games connect-4": {
+  "games connect4": {
     "description": "Bir connect-4 oyunu başlatır.",
     "options": {
       "opponent": {

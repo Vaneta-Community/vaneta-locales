@@ -120,6 +120,56 @@
       }
     }
   },
+  "mass mute": {
+    "description": "Bir ses kanalındaki üyeleri toplu olarak susturur.",
+    "options": {
+      "channel": {
+        "description": "Toplu olarak susturulacak ses kanalı."
+      },
+      "exclude": {
+        "description": "Susturulmayacak üyeler (varsayılan: moderatörler)."
+      },
+      "reason": {
+        "description": "Susturma sebebi."
+      }
+    }
+  },
+  "mass unmute": {
+    "description": "Bir ses kanalındaki üyelerin toplu susturmasını kaldırır.",
+    "options": {
+      "channel": {
+        "description": "Toplu susturması kaldırılacak ses kanalı."
+      },
+      "exclude": {
+        "description": "Susturması kaldırılmayacak üyeler (varsayılan: yok)."
+      },
+      "reason": {
+        "description": "Susturma kaldırma sebebi."
+      }
+    }
+  },
+  "mute add": {
+    "description": "Bir üyeyi sohbette susturur.",
+    "options": {
+      "member": {
+        "description": "Cezalandırılacak üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "mute remove": {
+    "description": "Bir üyenin sohbet susturmasını kaldırır.",
+    "options": {
+      "member": {
+        "description": "Cezası kaldırılacak üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
   "purge": {
     "description": "Son mesajları toplu olarak siler.",
     "options": {
@@ -128,6 +178,50 @@
       },
       "author": {
         "description": "Mesajların sahibi."
+      }
+    }
+  },
+  "imagemute add": {
+    "description": "Bir üyeyi görsellerden susturur.",
+    "options": {
+      "member": {
+        "description": "Cezalandırılacak üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "imagemute remove": {
+    "description": "Bir üyenin görsel susturmasını kaldırır.",
+    "options": {
+      "member": {
+        "description": "Cezası kaldırılacak üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "reactionmute add": {
+    "description": "Bir üyeyi tepkilerden susturur.",
+    "options": {
+      "member": {
+        "description": "Cezalandırılacak üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
+      }
+    }
+  },
+  "reactionmute remove": {
+    "description": "Bir üyenin tepki susturmasını kaldırır.",
+    "options": {
+      "member": {
+        "description": "Cezası kaldırılacak üye."
+      },
+      "reason": {
+        "description": "Bir sebep ekle."
       }
     }
   },

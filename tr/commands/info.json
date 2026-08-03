@@ -59,14 +59,6 @@
   "membercount": {
     "description": "Sunucunun üye sayısını verir."
   },
-  "platform channel": {
-    "description": "Bir Kick kanalı hakkında bilgi verir.",
-    "options": {
-      "username": {
-        "description": "Kanalın kullanıcı adı."
-      }
-    }
-  },
   "roblox": {
     "description": "Bir Roblox kullanıcısı hakkında bilgi verir.",
     "options": {

@@ -48,6 +48,20 @@
       "reason": { "description": "Add a reason." }
     }
   },
+  "imagemute add": {
+    "description": "Image mutes a member.",
+    "options": {
+      "member": { "description": "Who to punish." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "imagemute remove": {
+    "description": "Removes a member's image mute.",
+    "options": {
+      "member": { "description": "Whose punishment to remove." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
   "jail add": {
     "description": "Sends a member to jail, stripping their roles.",
     "options": {
@@ -78,11 +92,59 @@
       }
     }
   },
+  "mass mute": {
+    "description": "Mass mutes members in a voice channel.",
+    "options": {
+      "channel": { "description": "The voice channel to mass mute." },
+      "exclude": {
+        "description": "Which members not to mute (defaults to mods)."
+      },
+      "reason": { "description": "The reason for the mute." }
+    }
+  },
+  "mass unmute": {
+    "description": "Mass unmutes members in a voice channel.",
+    "options": {
+      "channel": { "description": "The voice channel to mass unmute." },
+      "exclude": {
+        "description": "Which members not to unmute (defaults to none)."
+      },
+      "reason": { "description": "The reason for the unmute." }
+    }
+  },
+  "mute add": {
+    "description": "Chat mutes a member.",
+    "options": {
+      "member": { "description": "Who to punish." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "mute remove": {
+    "description": "Removes a member's chat mute.",
+    "options": {
+      "member": { "description": "Whose punishment to remove." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
   "purge": {
     "description": "Bulk deletes recent messages.",
     "options": {
       "limit": { "description": "The number of messages to fetch (max 100)." },
       "author": { "description": "The author of the messages." }
+    }
+  },
+  "reactionmute add": {
+    "description": "Reaction mutes a member.",
+    "options": {
+      "member": { "description": "Who to punish." },
+      "reason": { "description": "Add a reason." }
+    }
+  },
+  "reactionmute remove": {
+    "description": "Removes a member's reaction mute.",
+    "options": {
+      "member": { "description": "Whose punishment to remove." },
+      "reason": { "description": "Add a reason." }
     }
   },
   "scrub": {

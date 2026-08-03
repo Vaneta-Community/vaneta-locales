@@ -136,6 +136,22 @@
     "blacklistRemovedTitle": "Kullanıcının Engeli Kaldırıldı",
     "blacklistRemovedDescription": "{member} artık bu sunucuda tekrar destek talebi oluşturabilir."
   },
+  "mass": {
+    "emptyChannel": "O ses kanalı boş.",
+    "muteFailed": "{channel} kanalındaki kimse susturulamadı.",
+    "unmuteFailed": "{channel} kanalındaki kimsenin susturması kaldırılamadı.",
+    "mutedTitle": "Toplu Susturma",
+    "unmutedTitle": "Toplu Susturma Kaldırma",
+    "muted": "{channel} kanalında {success} üye susturuldu.",
+    "mutedPartial": "{channel} kanalında {success} üye susturuldu — {failed} başarısız.",
+    "unmuted": "{channel} kanalında {success} üyenin susturması kaldırıldı.",
+    "unmutedPartial": "{channel} kanalında {success} üyenin susturması kaldırıldı — {failed} başarısız.",
+    "failedMutes": "Susturulamayanlar",
+    "failedUnmutes": "Susturması Kaldırılamayanlar",
+    "logMuted": "Yetkili: {mod}\nSusturulan: {channel} kanalında {count} üye\nSebep: {reason}",
+    "logUnmuted": "Yetkili: {mod}\nSusturması kaldırılan: {channel} kanalında {count} üye\nSebep: {reason}",
+    "timeTaken": "{time} sürdü"
+  },
   "moderation": {
     "roleNotConfigured": "{punishment} rolü yapılandırılmamış. Kontrol panelindeki Punitives modülünden ayarlayabilirsin.",
     "alreadyApplied": "Bu üyenin zaten aktif bir {punishment} cezası var.",
@@ -167,7 +183,10 @@
       "stream": "yayın yasağı",
       "ads": "reklam yasağı",
       "underworld": "underworld",
-      "jail": "hapis"
+      "jail": "hapis",
+      "reaction_ban": "tepki yasağı",
+      "image_mute": "görsel susturması",
+      "reaction_mute": "tepki susturması"
     }
   },
   "invites": {
@@ -255,9 +274,6 @@
   "tiktok": {
     "userNotFound": "`{name}` adında bir TikTok kullanıcısı bulunamadı."
   },
-  "kick": {
-    "userNotFound": "`{name}` adında bir Kick kanalı bulunamadı."
-  },
   "twitch": {
     "streamerNotFound": "`{name}` adında bir yayıncı bulunamadı.",
     "notStreaming": "`{name}` yayıncısı şu anda yayında değil.",
@@ -323,7 +339,9 @@
   "login": {
     "title": "Panel Giriş Kodu",
     "description": "Giriş kodun: {code}\nGeçerlilik süresi: {expiry}",
-    "loginPage": "Giriş sayfası"
+    "loginPage": "Giriş sayfası",
+    "sentToDm": "Giriş kodun DM'ine gönderildi.",
+    "dmsClosed": "Sana DM gönderemedim — sunucu üyelerinden gelen direkt mesajları etkinleştirip tekrar dene."
   },
   "report": {
     "title": "Hata Bildirimi",

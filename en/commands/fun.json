@@ -14,7 +14,7 @@
   },
   "dog": { "description": "Gives you a random picture of a dog." },
   "duck": { "description": "Gives you a random picture of a duck." },
-  "games connect-4": {
+  "games connect4": {
     "description": "Starts a game of connect-4.",
     "options": {
       "opponent": { "description": "The opponent you want to select." }

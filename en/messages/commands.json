@@ -136,6 +136,22 @@
     "blacklistRemovedTitle": "User Unblacklisted",
     "blacklistRemovedDescription": "{member} can create tickets in this server again."
   },
+  "mass": {
+    "emptyChannel": "That voice channel is empty.",
+    "muteFailed": "Failed to mute anyone in {channel}.",
+    "unmuteFailed": "Failed to unmute anyone in {channel}.",
+    "mutedTitle": "Mass Mute",
+    "unmutedTitle": "Mass Unmute",
+    "muted": "Muted {success} member(s) in {channel}.",
+    "mutedPartial": "Muted {success} member(s) in {channel} — {failed} failed.",
+    "unmuted": "Unmuted {success} member(s) in {channel}.",
+    "unmutedPartial": "Unmuted {success} member(s) in {channel} — {failed} failed.",
+    "failedMutes": "Failed to Mute",
+    "failedUnmutes": "Failed to Unmute",
+    "logMuted": "Moderator: {mod}\nMuted: {count} member(s) in {channel}\nReason: {reason}",
+    "logUnmuted": "Moderator: {mod}\nUnmuted: {count} member(s) in {channel}\nReason: {reason}",
+    "timeTaken": "Took {time}"
+  },
   "moderation": {
     "roleNotConfigured": "The {punishment} role has not been configured. Set it in the Punitives module on the dashboard.",
     "alreadyApplied": "This member already has an active {punishment}.",
@@ -167,7 +183,10 @@
       "stream": "stream ban",
       "ads": "ads ban",
       "underworld": "underworld",
-      "jail": "jail"
+      "jail": "jail",
+      "reaction_ban": "reaction ban",
+      "image_mute": "image mute",
+      "reaction_mute": "reaction mute"
     }
   },
   "invites": {
@@ -255,9 +274,6 @@
   "tiktok": {
     "userNotFound": "Could not find a TikTok user under the name `{name}`."
   },
-  "kick": {
-    "userNotFound": "Could not find a Kick channel under the name `{name}`."
-  },
   "twitch": {
     "streamerNotFound": "Could not find a streamer under the name `{name}`.",
     "notStreaming": "The streamer `{name}` is not currently streaming.",
@@ -323,7 +339,9 @@
   "login": {
     "title": "Dashboard Login Code",
     "description": "Your login code is {code}\nThis will expire in {expiry}",
-    "loginPage": "Login page"
+    "loginPage": "Login page",
+    "sentToDm": "Sent your login code to your DMs.",
+    "dmsClosed": "I couldn't DM you — enable direct messages from server members, then try again."
   },
   "report": {
     "title": "Bug Report",
