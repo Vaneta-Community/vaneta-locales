@@ -122,6 +122,7 @@
       "author": "Author",
       "count": "Count",
       "message": "Message",
+      "content": "Content",
       "emoji": "Emoji",
       "sticker": "Sticker",
       "code": "Code",
