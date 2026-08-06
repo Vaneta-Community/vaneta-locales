@@ -222,6 +222,7 @@
     "menuPlaceholder": "Bir görünüm seç",
     "menuOverview": "Anasayfa",
     "detailTitle": "{metric} — En Aktif Kanallar (son {days} gün)",
+    "topMembersTitle": "{metric} — En Aktif Üyeler (son {days} gün)",
     "messagesCount": "{count} mesaj",
     "noStats": "Bu dönem için henüz kayıtlı aktivite yok."
   },

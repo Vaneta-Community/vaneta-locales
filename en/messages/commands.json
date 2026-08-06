@@ -222,6 +222,7 @@
     "menuPlaceholder": "Select a view",
     "menuOverview": "Overview",
     "detailTitle": "{metric} — Top Channels (last {days} days)",
+    "topMembersTitle": "{metric} — Top Members (last {days} days)",
     "messagesCount": "{count} messages",
     "noStats": "No activity recorded for this period yet."
   },

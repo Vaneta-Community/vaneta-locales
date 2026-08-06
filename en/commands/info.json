@@ -40,10 +40,16 @@
     "description": "Gives you info about a Roblox user.",
     "options": { "username": { "description": "The user's username." } }
   },
-  "stats": {
+  "stats member": {
     "description": "Shows a member's activity stats for the last days.",
     "options": {
       "user": { "description": "Whose stats to show (defaults to you)." },
+      "days": { "description": "How many days to look back (default 90)." }
+    }
+  },
+  "stats top": {
+    "description": "Shows the server's top members by activity.",
+    "options": {
       "days": { "description": "How many days to look back (default 90)." }
     }
   },

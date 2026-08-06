@@ -64,12 +64,20 @@
       }
     }
   },
-  "stats": {
+  "stats member": {
     "description": "Bir üyenin son günlerdeki aktivite istatistiklerini gösterir.",
     "options": {
       "user": {
         "description": "İstatistikleri gösterilecek üye (varsayılan sensin)."
       },
+      "days": {
+        "description": "Kaç gün geriye bakılacağı (varsayılan 90)."
+      }
+    }
+  },
+  "stats top": {
+    "description": "Sunucunun en aktif üyelerini gösterir.",
+    "options": {
       "days": {
         "description": "Kaç gün geriye bakılacağı (varsayılan 90)."
       }
