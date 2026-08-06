@@ -430,6 +430,7 @@
   },
   "language": {
     "updatedTitle": "Language Updated",
-    "updatedDescription": "The bot will now respond in {language} in this server."
+    "updatedDescription": "The bot will now respond to you in {language}, in every server.",
+    "updatedDescriptionAuto": "The bot will now respond to you in each server's configured language."
   }
 }

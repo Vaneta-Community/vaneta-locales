@@ -33,19 +33,19 @@
   "bot report": {
     "description": "Geliştiricilere bir hata bildirir."
   },
-  "config language": {
-    "description": "Botun yanıt vereceği dili ayarlar.",
-    "options": {
-      "language": {
-        "description": "Kullanılacak dil."
-      }
-    }
-  },
   "config toggle": {
     "description": "Bir modülün etkinlik durumunu değiştirir.",
     "options": {
       "module": {
         "description": "Değiştirilecek modül."
+      }
+    }
+  },
+  "language": {
+    "description": "Botun sana yanıt verirken kullanacağı dili ayarlar.",
+    "options": {
+      "language": {
+        "description": "Sana yanıt verilecek dil."
       }
     }
   }

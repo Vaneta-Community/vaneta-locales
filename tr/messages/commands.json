@@ -430,6 +430,7 @@
   },
   "language": {
     "updatedTitle": "Dil Güncellendi",
-    "updatedDescription": "Bot artık bu sunucuda {language} dilinde yanıt verecek."
+    "updatedDescription": "Bot artık sana her sunucuda {language} dilinde yanıt verecek.",
+    "updatedDescriptionAuto": "Bot artık sana her sunucunun kendi ayarlı dilinde yanıt verecek."
   }
 }
