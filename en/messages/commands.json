@@ -308,6 +308,15 @@
     "bannerColour": "Colour",
     "clickHere": "Click here"
   },
+  "antinuke": {
+    "trust": {
+      "alreadyTrusted": "{user} is already trusted.",
+      "notTrusted": "{user} isn't trusted.",
+      "maxTrusted": "You can only trust up to {max} members — remove one first with `/antinuke trust remove`.",
+      "added": "{user} now bypasses every AntiNuke protection.",
+      "removed": "{user} no longer bypasses AntiNuke."
+    }
+  },
   "admins": {
     "addBot": "{user} is a bot, not a regular user.",
     "addAlready": "{user} already has dashboard access.",
@@ -364,15 +373,18 @@
   },
   "cat": {
     "title": "Random Cat",
-    "error": "Failed to fetch a cat image."
+    "error": "Failed to fetch a cat image.",
+    "imageAlt": "Random cat image"
   },
   "dog": {
     "title": "Random Dog",
-    "error": "Failed to fetch a dog image."
+    "error": "Failed to fetch a dog image.",
+    "imageAlt": "Random dog image"
   },
   "duck": {
     "title": "Random Duck",
-    "error": "Failed to fetch a duck image."
+    "error": "Failed to fetch a duck image.",
+    "imageAlt": "Random duck image"
   },
   "imageFooter": "Made with {host} 🤍",
   "coinflip": {

@@ -308,6 +308,15 @@
     "bannerColour": "Rengi",
     "clickHere": "Buraya tıkla"
   },
+  "antinuke": {
+    "trust": {
+      "alreadyTrusted": "{user} zaten güvenilir listesinde.",
+      "notTrusted": "{user} güvenilir listesinde değil.",
+      "maxTrusted": "En fazla {max} üyeyi güvenilir olarak işaretleyebilirsin — önce birini `/antinuke trust remove` ile kaldır.",
+      "added": "{user} artık tüm AntiNuke korumalarını atlıyor.",
+      "removed": "{user} artık AntiNuke'u atlamıyor."
+    }
+  },
   "admins": {
     "addBot": "{user} bir bot, normal bir kullanıcı değil.",
     "addAlready": "{user} zaten panel erişimine sahip.",
@@ -364,15 +373,18 @@
   },
   "cat": {
     "title": "Rastgele Kedi",
-    "error": "Kedi görseli alınamadı."
+    "error": "Kedi görseli alınamadı.",
+    "imageAlt": "Rastgele kedi görseli"
   },
   "dog": {
     "title": "Rastgele Köpek",
-    "error": "Köpek görseli alınamadı."
+    "error": "Köpek görseli alınamadı.",
+    "imageAlt": "Rastgele köpek görseli"
   },
   "duck": {
     "title": "Rastgele Ördek",
-    "error": "Ördek görseli alınamadı."
+    "error": "Ördek görseli alınamadı.",
+    "imageAlt": "Rastgele ördek görseli"
   },
   "imageFooter": "{host} ile hazırlandı 🤍",
   "coinflip": {

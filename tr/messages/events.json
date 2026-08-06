@@ -122,6 +122,7 @@
       "author": "Yazar",
       "count": "Sayı",
       "message": "Mesaj",
+      "content": "İçerik",
       "emoji": "Emoji",
       "sticker": "Çıkartma",
       "code": "Kod",
@@ -258,7 +259,8 @@
     "unpunishButton": "Cezayı Kaldır",
     "unpunished": "Ceza {mod} tarafından kaldırıldı",
     "unpunishFailed": "Ceza kaldırılamadı — zaten kaldırılmış olabilir.",
-    "notStaff": "Bu butonu yalnızca yetkililer kullanabilir."
+    "notStaff": "Bu butonu yalnızca yetkililer kullanabilir.",
+    "caughtBotsLabel": "Yakalanan Botlar: {count}"
   },
   "inviteLogs": {
     "title": "Davet Kullanıldı",

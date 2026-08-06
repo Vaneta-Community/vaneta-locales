@@ -259,7 +259,8 @@
     "unpunishButton": "Unpunish",
     "unpunished": "Unpunished by {mod}",
     "unpunishFailed": "Could not lift the punishment — it may already be lifted.",
-    "notStaff": "Only staff members can use this button."
+    "notStaff": "Only staff members can use this button.",
+    "caughtBotsLabel": "Caught Bots: {count}"
   },
   "inviteLogs": {
     "title": "Invite Used",
