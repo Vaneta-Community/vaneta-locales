@@ -207,6 +207,7 @@
   },
   "stats": {
     "subtitle": "Last {days} days of data",
+    "dayBadge": "Day {day}",
     "messages": "Messages",
     "voice": "Voice",
     "stream": "Stream",

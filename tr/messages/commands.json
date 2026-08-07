@@ -207,6 +207,7 @@
   },
   "stats": {
     "subtitle": "{days} günlük veri",
+    "dayBadge": "{day}. Gün",
     "messages": "Mesaj",
     "voice": "Ses",
     "stream": "Yayın",
