@@ -44,13 +44,17 @@
     "description": "Shows a member's activity stats for the last days.",
     "options": {
       "user": { "description": "Whose stats to show (defaults to you)." },
-      "days": { "description": "How many days to look back (default 90)." }
+      "window": {
+        "description": "Which time window to show (default 90 days)."
+      }
     }
   },
   "stats top": {
     "description": "Shows the server's top members by activity.",
     "options": {
-      "days": { "description": "How many days to look back (default 90)." }
+      "window": {
+        "description": "Which time window to show (default 90 days)."
+      }
     }
   },
   "steam": {

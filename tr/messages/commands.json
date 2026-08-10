@@ -206,7 +206,7 @@
     "leaderboardEmpty": "Henüz takip edilen davet yok."
   },
   "stats": {
-    "subtitle": "{days} günlük veri",
+    "subtitle": "{window} gösteriliyor",
     "dayBadge": "{day}. Gün",
     "messages": "Mesaj",
     "voice": "Ses",
@@ -222,10 +222,12 @@
     "month": "Bu Ay",
     "menuPlaceholder": "Bir görünüm seç",
     "menuOverview": "Anasayfa",
-    "detailTitle": "{metric} — En Aktif Kanallar (son {days} gün)",
-    "topMembersTitle": "{metric} — En Aktif Üyeler (son {days} gün)",
+    "detailTitle": "{metric} — En Aktif Kanallar ({window})",
+    "topMembersTitle": "{metric} — En Aktif Üyeler ({window})",
     "messagesCount": "{count} mesaj",
-    "noStats": "Bu dönem için henüz kayıtlı aktivite yok."
+    "noStats": "Bu dönem için henüz kayıtlı aktivite yok.",
+    "windowDays": "son {days} gün",
+    "windowAll": "tüm zamanlar"
   },
   "jail": {
     "notConfigured": "Hapis rolü yapılandırılmamış. Kontrol panelindeki Punitives modülünden ayarlayabilirsin.",

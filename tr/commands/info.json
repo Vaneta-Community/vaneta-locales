@@ -70,16 +70,16 @@
       "user": {
         "description": "İstatistikleri gösterilecek üye (varsayılan sensin)."
       },
-      "days": {
-        "description": "Kaç gün geriye bakılacağı (varsayılan 90)."
+      "window": {
+        "description": "Hangi zaman aralığının gösterileceği (varsayılan 90 gün)."
       }
     }
   },
   "stats top": {
     "description": "Sunucunun en aktif üyelerini gösterir.",
     "options": {
-      "days": {
-        "description": "Kaç gün geriye bakılacağı (varsayılan 90)."
+      "window": {
+        "description": "Hangi zaman aralığının gösterileceği (varsayılan 90 gün)."
       }
     }
   },

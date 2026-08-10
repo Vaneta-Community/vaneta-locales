@@ -206,7 +206,7 @@
     "leaderboardEmpty": "No tracked invites yet."
   },
   "stats": {
-    "subtitle": "Last {days} days of data",
+    "subtitle": "Showing {window}",
     "dayBadge": "Day {day}",
     "messages": "Messages",
     "voice": "Voice",
@@ -222,10 +222,12 @@
     "month": "This Month",
     "menuPlaceholder": "Select a view",
     "menuOverview": "Overview",
-    "detailTitle": "{metric} — Top Channels (last {days} days)",
-    "topMembersTitle": "{metric} — Top Members (last {days} days)",
+    "detailTitle": "{metric} — Top Channels ({window})",
+    "topMembersTitle": "{metric} — Top Members ({window})",
     "messagesCount": "{count} messages",
-    "noStats": "No activity recorded for this period yet."
+    "noStats": "No activity recorded for this period yet.",
+    "windowDays": "last {days} days",
+    "windowAll": "all time"
   },
   "jail": {
     "notConfigured": "The jail role has not been configured. Set it in the Punitives module on the dashboard.",
