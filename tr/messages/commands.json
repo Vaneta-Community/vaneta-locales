@@ -155,9 +155,11 @@
     "unmutedPartial": "{channel} kanalında {success} üyenin susturması kaldırıldı — {failed} başarısız.",
     "failedMutes": "Susturulamayanlar",
     "failedUnmutes": "Susturması Kaldırılamayanlar",
-    "logMuted": "Yetkili: {mod}\nSusturulan: {channel} kanalında {count} üye\nSebep: {reason}",
-    "logUnmuted": "Yetkili: {mod}\nSusturması kaldırılan: {channel} kanalında {count} üye\nSebep: {reason}",
-    "timeTaken": "{time} sürdü"
+    "timeTaken": "{time} sürdü",
+    "fields": {
+      "moderator": "Yetkili",
+      "reason": "Sebep"
+    }
   },
   "moderation": {
     "roleNotConfigured": "{punishment} rolü yapılandırılmamış. Kontrol panelindeki Punitives modülünden ayarlayabilirsin.",
@@ -167,7 +169,11 @@
     "appliedDescription": "{member}, {punishment} cezası aldı.",
     "removedTitle": "Ceza Kaldırıldı",
     "removedDescription": "{member} üyesinin {punishment} cezası kaldırıldı.",
-    "logDescription": "Üye: {member}\nYetkili: {mod}\nCeza: {punishment}\nSebep: {reason}",
+    "fields": {
+      "moderator": "Yetkili",
+      "punishment": "Ceza",
+      "reason": "Sebep"
+    },
     "invalidDuration": "Geçersiz süre formatı. `10m`, `1h` veya `7d` gibi bir şey dene.",
     "durationTooLong": "Zaman aşımı 28 günden uzun olamaz.",
     "notBannable": "Bu üyeyi yasaklayamıyorum — en yüksek rolü benimkinden üstte.",
@@ -237,7 +243,10 @@
     "addedDescription": "{member} hapse gönderildi. Rolleri kaydedildi ve serbest bırakıldığında geri verilecek.",
     "removedTitle": "Üye Hapisten Çıkarıldı",
     "removedDescription": "{member} hapisten çıkarıldı ve rolleri geri verildi.",
-    "logDescription": "Üye: {member}\nYetkili: {mod}\nSebep: {reason}"
+    "fields": {
+      "moderator": "Yetkili",
+      "reason": "Sebep"
+    }
   },
   "warn": {
     "finalWarning": "Bu üye zaten son uyarısında.",
@@ -248,7 +257,11 @@
     "unwarnedTitle": "Üye Uyarısı Kaldırıldı",
     "unwarnedDescription": "{member} artık **{n}.** uyarısında.",
     "unwarnedNoneDescription": "{member} artık hiç uyarıya sahip değil.",
-    "logDescription": "**Üye:** {member}\n**Yetkili:** {mod}\n**Uyarı:** {current}/{total}\n\n**Sebep:** {reason}"
+    "fields": {
+      "moderator": "Yetkili",
+      "warning": "Uyarı",
+      "reason": "Sebep"
+    }
   },
   "dictionary": {
     "definitions": "{partOfSpeech} Tanımları",

@@ -155,9 +155,11 @@
     "unmutedPartial": "Unmuted {success} member(s) in {channel} — {failed} failed.",
     "failedMutes": "Failed to Mute",
     "failedUnmutes": "Failed to Unmute",
-    "logMuted": "Moderator: {mod}\nMuted: {count} member(s) in {channel}\nReason: {reason}",
-    "logUnmuted": "Moderator: {mod}\nUnmuted: {count} member(s) in {channel}\nReason: {reason}",
-    "timeTaken": "Took {time}"
+    "timeTaken": "Took {time}",
+    "fields": {
+      "moderator": "Moderator",
+      "reason": "Reason"
+    }
   },
   "moderation": {
     "roleNotConfigured": "The {punishment} role has not been configured. Set it in the Punitives module on the dashboard.",
@@ -167,7 +169,11 @@
     "appliedDescription": "{member} has received a {punishment}.",
     "removedTitle": "Punishment Removed",
     "removedDescription": "{member}'s {punishment} has been removed.",
-    "logDescription": "Member: {member}\nModerator: {mod}\nPunishment: {punishment}\nReason: {reason}",
+    "fields": {
+      "moderator": "Moderator",
+      "punishment": "Punishment",
+      "reason": "Reason"
+    },
     "invalidDuration": "Invalid duration format. Try something like `10m`, `1h`, or `7d`.",
     "durationTooLong": "Timeouts cannot be longer than 28 days.",
     "notBannable": "I cannot ban this member — their highest role is above mine.",
@@ -237,7 +243,10 @@
     "addedDescription": "{member} has been sent to jail. Their roles have been saved and will be restored when they are released.",
     "removedTitle": "Member Released from Jail",
     "removedDescription": "{member} has been released from jail and their roles have been restored.",
-    "logDescription": "Member: {member}\nModerator: {mod}\nReason: {reason}"
+    "fields": {
+      "moderator": "Moderator",
+      "reason": "Reason"
+    }
   },
   "warn": {
     "finalWarning": "This member is already on their final warning.",
@@ -248,7 +257,11 @@
     "unwarnedTitle": "Member Unwarned",
     "unwarnedDescription": "{member} is now on warning **#{n}**.",
     "unwarnedNoneDescription": "{member} now has no warnings.",
-    "logDescription": "**Member:** {member}\n**Mod:** {mod}\n**Warning:** {current}/{total}\n\n**Reason:** {reason}"
+    "fields": {
+      "moderator": "Moderator",
+      "warning": "Warning",
+      "reason": "Reason"
+    }
   },
   "dictionary": {
     "definitions": "{partOfSpeech} Definitions",
