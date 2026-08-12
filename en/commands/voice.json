@@ -1,4 +1,43 @@
 {
+  "filter 8d": { "description": "Applies an 8D audio effect to the music." },
+  "filter bassboost": {
+    "description": "Enhances bass frequencies in the music."
+  },
+  "filter karaoke": { "description": "Applies a karaoke filter to the music." },
+  "filter nightcore": {
+    "description": "Applies a nightcore effect to the music."
+  },
+  "filter pop": {
+    "description": "Applies a pop equalizer preset to the music."
+  },
+  "filter reset": { "description": "Resets all active audio filters." },
+  "filter soft": {
+    "description": "Applies a soft, muffled filter to the music."
+  },
+  "filter treblebass": {
+    "description": "Enhances treble and bass frequencies in the music."
+  },
+  "filter tremolo": { "description": "Applies a tremolo effect to the music." },
+  "filter vaporwave": {
+    "description": "Applies a vaporwave effect to the music."
+  },
+  "filter vibrato": { "description": "Applies a vibrato effect to the music." },
+  "library like": {
+    "description": "Likes or unlikes the currently playing song."
+  },
+  "library likedsongs": { "description": "Lists your liked songs." },
+  "library lyrics": {
+    "description": "Looks up lyrics for a song.",
+    "options": {
+      "query": {
+        "description": "The song to search for. Defaults to the currently playing song."
+      }
+    }
+  },
+  "library recent": { "description": "Lists your recently played songs." },
+  "music 247": {
+    "description": "Toggles 24/7 mode — the bot stays connected instead of leaving an empty queue."
+  },
   "music add": {
     "description": "Adds a song to the queue.",
     "options": {
@@ -7,8 +46,43 @@
       }
     }
   },
+  "music autoplay": {
+    "description": "Toggles autoplay — keeps queueing related tracks once the queue empties."
+  },
+  "music clear": {
+    "description": "Clears every upcoming song from the queue."
+  },
+  "music dj clear": {
+    "description": "Clears the DJ role, allowing everyone to control music."
+  },
+  "music dj set": {
+    "description": "Sets the DJ role for music commands.",
+    "options": {
+      "role": { "description": "The role that can control music playback." }
+    }
+  },
+  "music forward": {
+    "description": "Forwards the current track by 10 seconds."
+  },
+  "music grab": {
+    "description": "Sends the currently playing song to your DMs."
+  },
+  "music join": { "description": "Makes the bot join your voice channel." },
+  "music leave": { "description": "Makes the bot leave the voice channel." },
+  "music loop": {
+    "description": "Cycles the loop mode between off, track and queue."
+  },
+  "music move": {
+    "description": "Moves the player to a different voice channel.",
+    "options": {
+      "voice": { "description": "The voice channel to move to." },
+      "text": { "description": "The text channel to send player messages to." }
+    }
+  },
+  "music nowplaying": { "description": "Shows the currently playing song." },
   "music panel": { "description": "Opens the music panel." },
   "music pause": { "description": "Pauses the currently playing song." },
+  "music previous": { "description": "Plays the previous track again." },
   "music queue": { "description": "Lists the songs in the queue." },
   "music remove": {
     "description": "Removes a song from the queue.",
@@ -16,7 +90,24 @@
       "position": { "description": "The position of the song to remove." }
     }
   },
+  "music replay": {
+    "description": "Replays the current track from the beginning."
+  },
   "music resume": { "description": "Resumes the currently paused song." },
+  "music rewind": { "description": "Rewinds the current track by 10 seconds." },
+  "music seek": {
+    "description": "Seeks to a position (in seconds) in the current track.",
+    "options": {
+      "seconds": { "description": "The position to seek to, in seconds." }
+    }
+  },
+  "music setup create": { "description": "Creates the music request channel." },
+  "music setup delete": { "description": "Deletes the music request channel." },
+  "music shuffle": { "description": "Shuffles the queue." },
   "music skip": { "description": "Skips the current song." },
-  "music stop": { "description": "Clears all songs from the queue." }
+  "music stop": { "description": "Stops playback and clears the queue." },
+  "music volume": {
+    "description": "Adjusts the player volume.",
+    "options": { "volume": { "description": "The volume percentage (0-150)." } }
+  }
 }

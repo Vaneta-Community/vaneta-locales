@@ -224,7 +224,9 @@
     "removeModalTitle": "Remove a song",
     "removeModalLabel": "Position",
     "removeModalPlaceholder": "The position of the song you want to remove",
-    "panelDescription": "**Duration:** `{duration}`\n**Finishes playing:** {time}"
+    "panelDescription": "**Duration:** `{duration}`\n**Finishes playing:** {time}",
+    "idleTitle": "Nothing is playing",
+    "idleDescription": "Type a song name or link in this channel, or press the search button below."
   },
   "jtcPanel": {
     "notJtcChannel": "This is not an active JTC channel.",

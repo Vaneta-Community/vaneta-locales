@@ -7,8 +7,25 @@
       }
     }
   },
+  "music dj clear": {
+    "description": "DJ rolünü kaldırır, böylece herkes müziği kontrol edebilir."
+  },
+  "music dj set": {
+    "description": "Müzik komutları için DJ rolünü ayarlar.",
+    "options": {
+      "role": {
+        "description": "Müzik çalmayı kontrol edebilecek rol."
+      }
+    }
+  },
   "music panel": {
     "description": "Müzik panelini açar."
+  },
+  "music setup create": {
+    "description": "Müzik istek kanalını oluşturur."
+  },
+  "music setup delete": {
+    "description": "Müzik istek kanalını siler."
   },
   "music pause": {
     "description": "Çalan şarkıyı duraklatır."
@@ -31,6 +48,122 @@
     "description": "Mevcut şarkıyı atlar."
   },
   "music stop": {
-    "description": "Kuyruktaki tüm şarkıları temizler."
+    "description": "Çalmayı durdurur ve kuyruğu temizler."
+  },
+  "music join": {
+    "description": "Botu ses kanalına katılmaya davet eder."
+  },
+  "music leave": {
+    "description": "Botun ses kanalından ayrılmasını sağlar."
+  },
+  "music shuffle": {
+    "description": "Kuyruğu karıştırır."
+  },
+  "music loop": {
+    "description": "Tekrar modunu kapalı, şarkı ve kuyruk arasında değiştirir."
+  },
+  "music volume": {
+    "description": "Oynatıcı ses seviyesini ayarlar.",
+    "options": {
+      "volume": {
+        "description": "Ses seviyesi yüzdesi (0-150)."
+      }
+    }
+  },
+  "music seek": {
+    "description": "Mevcut parçada bir konuma (saniye cinsinden) atlar.",
+    "options": {
+      "seconds": {
+        "description": "Atlanacak konum, saniye cinsinden."
+      }
+    }
+  },
+  "music forward": {
+    "description": "Mevcut parçayı 10 saniye ileri sarar."
+  },
+  "music rewind": {
+    "description": "Mevcut parçayı 10 saniye geri sarar."
+  },
+  "music previous": {
+    "description": "Önceki parçayı tekrar çalar."
+  },
+  "music move": {
+    "description": "Oynatıcıyı farklı bir ses kanalına taşır.",
+    "options": {
+      "voice": {
+        "description": "Taşınacak ses kanalı."
+      },
+      "text": {
+        "description": "Oynatıcı mesajlarının gönderileceği metin kanalı."
+      }
+    }
+  },
+  "music clear": {
+    "description": "Kuyruktaki tüm bekleyen şarkıları temizler."
+  },
+  "music replay": {
+    "description": "Mevcut parçayı baştan tekrar çalar."
+  },
+  "music nowplaying": {
+    "description": "O anda çalan şarkıyı gösterir."
+  },
+  "music autoplay": {
+    "description": "Otomatik çalmayı açar/kapatır — kuyruk boşaldığında ilgili parçalar eklenir."
+  },
+  "music grab": {
+    "description": "O anda çalan şarkıyı özel mesaj olarak gönderir."
+  },
+  "music 247": {
+    "description": "7/24 modunu açar/kapatır — kuyruk boşaldığında bot ayrılmaz."
+  },
+  "library like": {
+    "description": "O anda çalan şarkıyı beğenir veya beğenmekten vazgeçer."
+  },
+  "library likedsongs": {
+    "description": "Beğendiğiniz şarkıları listeler."
+  },
+  "library lyrics": {
+    "description": "Bir şarkının sözlerini arar.",
+    "options": {
+      "query": {
+        "description": "Aranacak şarkı. Belirtilmezse o anda çalan şarkı kullanılır."
+      }
+    }
+  },
+  "library recent": {
+    "description": "Son çalınan şarkılarınızı listeler."
+  },
+  "filter 8d": {
+    "description": "Müziğe 8D ses efekti uygular."
+  },
+  "filter bassboost": {
+    "description": "Müzikteki bas frekanslarını güçlendirir."
+  },
+  "filter nightcore": {
+    "description": "Müziğe nightcore efekti uygular."
+  },
+  "filter karaoke": {
+    "description": "Müziğe karaoke filtresi uygular."
+  },
+  "filter reset": {
+    "description": "Etkin tüm ses filtrelerini sıfırlar."
+  },
+  "filter tremolo": {
+    "description": "Müziğe tremolo efekti uygular."
+  },
+  "filter vibrato": {
+    "description": "Müziğe vibrato efekti uygular."
+  },
+  "filter treblebass": {
+    "description": "Müzikteki tiz ve bas frekanslarını güçlendirir."
+  },
+  "filter soft": {
+    "description": "Müziğe yumuşak, boğuk bir filtre uygular."
+  },
+  "filter pop": {
+    "description": "Müziğe pop ekolayzır ön ayarı uygular."
+  },
+  "filter vaporwave": {
+    "description": "Müziğe vaporwave efekti uygular."
   }
 }
