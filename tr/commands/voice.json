@@ -21,6 +21,9 @@
   "music panel": {
     "description": "Müzik panelini açar."
   },
+  "music setup 247": {
+    "description": "7/24 modunu açar/kapatır — kuyruk boşaldığında bot ayrılmaz."
+  },
   "music setup create": {
     "description": "Müzik istek kanalını oluşturur."
   },
@@ -112,9 +115,6 @@
   },
   "music grab": {
     "description": "O anda çalan şarkıyı özel mesaj olarak gönderir."
-  },
-  "music 247": {
-    "description": "7/24 modunu açar/kapatır — kuyruk boşaldığında bot ayrılmaz."
   },
   "library like": {
     "description": "O anda çalan şarkıyı beğenir veya beğenmekten vazgeçer."

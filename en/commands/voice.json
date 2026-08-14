@@ -35,9 +35,6 @@
     }
   },
   "library recent": { "description": "Lists your recently played songs." },
-  "music 247": {
-    "description": "Toggles 24/7 mode — the bot stays connected instead of leaving an empty queue."
-  },
   "music add": {
     "description": "Adds a song to the queue.",
     "options": {
@@ -100,6 +97,9 @@
     "options": {
       "seconds": { "description": "The position to seek to, in seconds." }
     }
+  },
+  "music setup 247": {
+    "description": "Toggles 24/7 mode — the bot stays connected instead of leaving an empty queue."
   },
   "music setup create": { "description": "Creates the music request channel." },
   "music setup delete": { "description": "Deletes the music request channel." },
