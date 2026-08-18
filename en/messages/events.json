@@ -107,6 +107,7 @@
       "command": "Command",
       "channel": "Channel",
       "channelId": "Channel ID",
+      "from": "From",
       "thread": "Thread",
       "threadId": "Thread ID",
       "stage": "Stage",

@@ -107,6 +107,7 @@
       "command": "Komut",
       "channel": "Kanal",
       "channelId": "Kanal ID",
+      "from": "Nereden",
       "thread": "Alt Başlık",
       "threadId": "Alt Başlık ID",
       "stage": "Sahne",
