@@ -148,6 +148,25 @@
       "unknown": "unknown"
     }
   },
+  "voiceLogs": {
+    "titles": {
+      "joined": "Joined Voice Channel",
+      "left": "Left Voice Channel",
+      "moved": "Switched Voice Channel",
+      "selfMuted": "Self-Muted",
+      "selfUnmuted": "Self-Unmuted",
+      "selfDeafened": "Self-Deafened",
+      "selfUndeafened": "Self-Undeafened",
+      "serverMuted": "Server-Muted",
+      "serverUnmuted": "Server-Unmuted",
+      "serverDeafened": "Server-Deafened",
+      "serverUndeafened": "Server-Undeafened"
+    },
+    "fields": {
+      "member": "Member",
+      "channel": "Channel"
+    }
+  },
   "forms": {
     "formNotFound": "The form associated with this button no longer exists.",
     "formChannelNotFound": "The form channel associated with this button no longer exists.",

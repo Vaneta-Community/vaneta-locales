@@ -148,6 +148,25 @@
       "unknown": "bilinmiyor"
     }
   },
+  "voiceLogs": {
+    "titles": {
+      "joined": "Ses Kanalına Katıldı",
+      "left": "Ses Kanalından Ayrıldı",
+      "moved": "Ses Kanalı Değiştirdi",
+      "selfMuted": "Kendini Sessize Aldı",
+      "selfUnmuted": "Kendi Sesini Açtı",
+      "selfDeafened": "Kendini Sağırlaştırdı",
+      "selfUndeafened": "Kendi Sağırlığını Kaldırdı",
+      "serverMuted": "Sunucu Tarafından Sessize Alındı",
+      "serverUnmuted": "Sunucu Tarafından Sesi Açıldı",
+      "serverDeafened": "Sunucu Tarafından Sağırlaştırıldı",
+      "serverUndeafened": "Sunucu Tarafından Sağırlığı Kaldırıldı"
+    },
+    "fields": {
+      "member": "Üye",
+      "channel": "Kanal"
+    }
+  },
   "forms": {
     "formNotFound": "Bu butonla ilişkili form artık mevcut değil.",
     "formChannelNotFound": "Bu butonla ilişkili form kanalı artık mevcut değil.",
