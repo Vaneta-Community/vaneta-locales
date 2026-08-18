@@ -126,6 +126,7 @@
       "count": "Count",
       "message": "Message",
       "content": "Content",
+      "attachments": "Attachments",
       "emoji": "Emoji",
       "sticker": "Sticker",
       "code": "Code",
