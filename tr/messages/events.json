@@ -20,6 +20,9 @@
   "welcomes": {
     "newMember": "Yeni Üye"
   },
+  "goodbyes": {
+    "memberLeft": "Üye Ayrıldı"
+  },
   "levels": {
     "levelUpTitle": "Seviye atladın!",
     "sentFrom": "{guild} sunucusundan gönderildi"

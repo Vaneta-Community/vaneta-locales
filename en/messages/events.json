@@ -20,6 +20,9 @@
   "welcomes": {
     "newMember": "New Member"
   },
+  "goodbyes": {
+    "memberLeft": "Member Left"
+  },
   "levels": {
     "levelUpTitle": "You levelled up!",
     "sentFrom": "Sent from {guild}"
