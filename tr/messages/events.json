@@ -164,7 +164,8 @@
     },
     "fields": {
       "member": "Üye",
-      "channel": "Kanal"
+      "channel": "Kanal",
+      "inChannel": "Kanaldaki Üyeler ({count})"
     }
   },
   "forms": {
