@@ -113,6 +113,7 @@
       "stageId": "Sahne ID",
       "user": "Kullanıcı",
       "userId": "Kullanıcı ID",
+      "members": "Üye(ler)",
       "role": "Rol",
       "roleId": "Rol ID",
       "webhook": "Webhook",

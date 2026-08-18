@@ -113,6 +113,7 @@
       "stageId": "Stage ID",
       "user": "User",
       "userId": "User ID",
+      "members": "Member(s)",
       "role": "Role",
       "roleId": "Role ID",
       "webhook": "Webhook",
