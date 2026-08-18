@@ -142,7 +142,7 @@
       "reason": "Reason",
       "type": "Type",
       "permissionOverwrites": "Permission Overwrites",
-      "executorId": "Executor ID: {id}",
+      "executor": "Executor",
       "none": "None",
       "unknown": "unknown"
     }

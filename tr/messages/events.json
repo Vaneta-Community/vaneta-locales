@@ -142,7 +142,7 @@
       "reason": "Sebep",
       "type": "Tür",
       "permissionOverwrites": "İzin Geçersiz Kılmaları",
-      "executorId": "Uygulayan ID: {id}",
+      "executor": "Uygulayan",
       "none": "Yok",
       "unknown": "bilinmiyor"
     }
