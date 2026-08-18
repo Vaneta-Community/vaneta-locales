@@ -102,6 +102,7 @@
       "HomeSettingsUpdate": "Ana Sayfa Ayarları Güncellendi"
     },
     "fields": {
+      "date": "Tarih",
       "botUser": "Bot Kullanıcısı",
       "applicationId": "Uygulama ID",
       "command": "Komut",
@@ -288,13 +289,13 @@
   },
   "inviteLogs": {
     "title": "Davet Kullanıldı",
+    "member": "Üye",
     "code": "Kod",
     "uses": "Kullanım",
     "createdBy": "Oluşturan",
     "createdAt": "Oluşturulma",
     "expiresAt": "Sona Erme",
-    "unknown": "bilinmiyor",
-    "userId": "Kullanıcı ID: {id}"
+    "unknown": "bilinmiyor"
   },
   "twitch": {
     "liveTitle": "{name} şimdi Twitch'te yayında!",

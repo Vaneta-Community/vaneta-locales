@@ -102,6 +102,7 @@
       "HomeSettingsUpdate": "Home Settings Updated"
     },
     "fields": {
+      "date": "Date",
       "botUser": "Bot User",
       "applicationId": "Application ID",
       "command": "Command",
@@ -288,13 +289,13 @@
   },
   "inviteLogs": {
     "title": "Invite Used",
+    "member": "Member",
     "code": "Code",
     "uses": "Uses",
     "createdBy": "Created By",
     "createdAt": "Created At",
     "expiresAt": "Expires At",
-    "unknown": "unknown",
-    "userId": "User ID: {id}"
+    "unknown": "unknown"
   },
   "twitch": {
     "liveTitle": "{name} is now live on Twitch!",
