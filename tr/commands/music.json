@@ -1,5 +1,5 @@
 {
-  "music add": {
+  "music play": {
     "description": "Kuyruğa bir şarkı ekler.",
     "options": {
       "query": {

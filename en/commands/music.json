@@ -12,14 +12,6 @@
     }
   },
   "library recent": { "description": "Lists your recently played songs." },
-  "music add": {
-    "description": "Adds a song to the queue.",
-    "options": {
-      "query": {
-        "description": "The search query or URL for a song or playlist."
-      }
-    }
-  },
   "music autoplay": {
     "description": "Toggles autoplay — keeps queueing related tracks once the queue empties."
   },
@@ -47,6 +39,14 @@
   "music nowplaying": { "description": "Shows the currently playing song." },
   "music panel": { "description": "Opens the music panel." },
   "music pause": { "description": "Pauses the currently playing song." },
+  "music play": {
+    "description": "Adds a song to the queue.",
+    "options": {
+      "query": {
+        "description": "The search query or URL for a song or playlist."
+      }
+    }
+  },
   "music previous": { "description": "Plays the previous track again." },
   "music queue": { "description": "Lists the songs in the queue." },
   "music remove": {
