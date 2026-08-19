@@ -76,6 +76,7 @@
     "statusPlaying": "Playing",
     "songDuration": "**Duration:** {duration}",
     "songAddedBy": "**Added by:** {user}",
+    "queueMoreSongs": "*...and {count} more*",
     "joinedChannel": "Joined {channel}.",
     "leftChannel": "Left the voice channel.",
     "loopOff": "Off",

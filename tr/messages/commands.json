@@ -76,6 +76,7 @@
     "statusPlaying": "Çalıyor",
     "songDuration": "**Süre:** {duration}",
     "songAddedBy": "**Ekleyen:** {user}",
+    "queueMoreSongs": "*...ve {count} şarkı daha*",
     "joinedChannel": "{channel} kanalına katılındı.",
     "leftChannel": "Ses kanalından ayrılındı.",
     "loopOff": "Kapalı",
