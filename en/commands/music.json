@@ -1,27 +1,4 @@
 {
-  "filter 8d": { "description": "Applies an 8D audio effect to the music." },
-  "filter bassboost": {
-    "description": "Enhances bass frequencies in the music."
-  },
-  "filter karaoke": { "description": "Applies a karaoke filter to the music." },
-  "filter nightcore": {
-    "description": "Applies a nightcore effect to the music."
-  },
-  "filter pop": {
-    "description": "Applies a pop equalizer preset to the music."
-  },
-  "filter reset": { "description": "Resets all active audio filters." },
-  "filter soft": {
-    "description": "Applies a soft, muffled filter to the music."
-  },
-  "filter treblebass": {
-    "description": "Enhances treble and bass frequencies in the music."
-  },
-  "filter tremolo": { "description": "Applies a tremolo effect to the music." },
-  "filter vaporwave": {
-    "description": "Applies a vaporwave effect to the music."
-  },
-  "filter vibrato": { "description": "Applies a vibrato effect to the music." },
   "library like": {
     "description": "Likes or unlikes the currently playing song."
   },
@@ -48,15 +25,6 @@
   },
   "music clear": {
     "description": "Clears every upcoming song from the queue."
-  },
-  "music dj clear": {
-    "description": "Clears the DJ role, allowing everyone to control music."
-  },
-  "music dj set": {
-    "description": "Sets the DJ role for music commands.",
-    "options": {
-      "role": { "description": "The role that can control music playback." }
-    }
   },
   "music forward": {
     "description": "Forwards the current track by 10 seconds."
@@ -103,6 +71,15 @@
   },
   "music setup create": { "description": "Creates the music request channel." },
   "music setup delete": { "description": "Deletes the music request channel." },
+  "music setup dj-clear": {
+    "description": "Clears the DJ role, allowing everyone to control music."
+  },
+  "music setup dj-set": {
+    "description": "Sets the DJ role for music commands.",
+    "options": {
+      "role": { "description": "The role that can control music playback." }
+    }
+  },
   "music shuffle": { "description": "Shuffles the queue." },
   "music skip": { "description": "Skips the current song." },
   "music stop": { "description": "Stops playback and clears the queue." },

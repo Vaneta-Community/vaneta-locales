@@ -406,7 +406,8 @@
       "moderation": "Moderasyon",
       "module": "Modüller",
       "utility": "Araçlar",
-      "voice": "Ses"
+      "music": "Müzik",
+      "filters": "Filtreler"
     },
     "aliases": "takma adlar",
     "slashOnly": "yalnızca eğik çizgi",

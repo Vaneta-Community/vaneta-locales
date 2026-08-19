@@ -406,7 +406,8 @@
       "moderation": "Moderation",
       "module": "Modules",
       "utility": "Utility",
-      "voice": "Voice"
+      "music": "Music",
+      "filters": "Filters"
     },
     "aliases": "aliases",
     "slashOnly": "slash only",

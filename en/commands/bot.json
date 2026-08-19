@@ -1,12 +1,12 @@
 {
-  "bot admins add": {
+  "bot dashboard add": {
     "description": "Grants a member dashboard access.",
     "options": { "user": { "description": "The member to add." } }
   },
-  "bot admins list": {
+  "bot dashboard list": {
     "description": "Lists the members that have dashboard access."
   },
-  "bot admins remove": {
+  "bot dashboard remove": {
     "description": "Revokes a member's dashboard access.",
     "options": { "user": { "description": "The member to remove." } }
   },

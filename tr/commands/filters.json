@@ -1,0 +1,35 @@
+{
+  "filter 8d": {
+    "description": "Müziğe 8D ses efekti uygular."
+  },
+  "filter bassboost": {
+    "description": "Müzikteki bas frekanslarını güçlendirir."
+  },
+  "filter nightcore": {
+    "description": "Müziğe nightcore efekti uygular."
+  },
+  "filter karaoke": {
+    "description": "Müziğe karaoke filtresi uygular."
+  },
+  "filter reset": {
+    "description": "Etkin tüm ses filtrelerini sıfırlar."
+  },
+  "filter tremolo": {
+    "description": "Müziğe tremolo efekti uygular."
+  },
+  "filter vibrato": {
+    "description": "Müziğe vibrato efekti uygular."
+  },
+  "filter treblebass": {
+    "description": "Müzikteki tiz ve bas frekanslarını güçlendirir."
+  },
+  "filter soft": {
+    "description": "Müziğe yumuşak, boğuk bir filtre uygular."
+  },
+  "filter pop": {
+    "description": "Müziğe pop ekolayzır ön ayarı uygular."
+  },
+  "filter vaporwave": {
+    "description": "Müziğe vaporwave efekti uygular."
+  }
+}
